@@ -1,7 +1,7 @@
 {
-  "name": "aframe-react-boilerplate",
-  "version": "3.0.1",
-  "description": "Boilerplate for building virtual reality experiences with A-Frame and React.",
+  "name": "aframe-demo",
+  "version": "1.0.1",
+  "description": "aframe demo with presentation in vr world",
   "dependencies": {
     "aframe": "^0.5.0",
     "aframe-animation-component": "^3.2.5",
@@ -19,27 +19,8 @@
     "eject": "react-scripts eject",
     "publish": "npm run build && gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ngokevin/aframe-react-boilerplate.git"
-  },
-  "keywords": [
-    "aframe",
-    "react",
-    "vr",
-    "boilerplate",
-    "a-frame",
-    "mozvr",
-    "reactvr",
-    "aframe-react",
-    "webvr"
-  ],
-  "author": "Kevin Ngo <kngo@mozilla.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ngokevin/aframe-react-boilerplate/issues"
-  },
-  "homepage": "https://github.com/ngokevin/aframe-react-boilerplate#readme",
+
+
   "devDependencies": {
     "gh-pages": "^0.12.0"
   }
