@@ -42,10 +42,6 @@ class App extends React.Component {
         <Entity text={{value: 'https://aframe.io/', align: 'left'}} position={{x: 8, y: 1.8, z: -1}}/>
         <Entity text={{value: 'https://www.youtube.com/watch?v=eTFPMxqod2I', align: 'left'}} position={{x: 8, y: 1.7, z: -1}}/>
         <Entity text={{value: 'https://bestofreactjs.com/repo/ngokevin-aframe-react-react-component-libraries', align: 'left'}} position={{x: 8, y: 1.6, z: -1}}/>
-
-        <Entity primitive="a-camera">
-          <Entity primitive="a-cursor" animation__click={{property: 'scale', startEvents: 'click', from: '0.1 0.1 0.1', to: '1 1 1', dur: 150}}/>
-        </Entity>
       </Scene>
     );
   }
